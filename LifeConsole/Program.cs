@@ -10,7 +10,7 @@ class Program
     const int DelayMs = 120;
     const double FillChance = 0.2;
 
-    static readonly Random Rnd = new Random();
+    static readonly Random Rnd = new Random(); // для случайного заполнения ...
 
     static void Main()
     {
