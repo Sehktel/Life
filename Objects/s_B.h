@@ -4,8 +4,8 @@ class s_B {
     public:
         s_B() : a(50), b(100) {
             std::cout << "Constructor B called, initializing resources..." << std::endl;
-            a = -50;
-            b = -100;
+            a = -500;
+            b = -1000;
         } // public constructor
 
         ~s_B() {
