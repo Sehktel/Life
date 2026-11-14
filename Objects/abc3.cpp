@@ -123,6 +123,9 @@ int s_B::pSum(){
 int main() {
     s_A objA;
     s_B objB;
+    s_A objC; // Создаем объект класса A -- для того, чтобы показать,
+              // что объектов одного класса может быть несколько,
+              // и каждый объект имеет свои собственные данные.
 
     std::cout << "objA.a: " << objA.get_a() << ", objA.b: " << objA.get_b() << '\n';
     std::cout << "a + b = " << objA.Sum() << std::endl;
@@ -135,6 +138,9 @@ int main() {
 
     std::cout << "objB.a: " << objB.get_a() << ", objB.b: " << objB.get_b() << '\n';
     std::cout << "a + b = " << objB.Sum() << std::endl;
+
+    std::cout << "objC.a: " << objC.get_a() << ", objC.b: " << objC.get_b() << '\n';
+    std::cout << "a + b = " << objC.Sum() << std::endl;
 
     std::cout << "Hello, World!" << std::endl;
     return 0;
